@@ -15,7 +15,7 @@ typedef double* pDouble;
 *   ConsoleInputArrayDouble
 *   
 */
-int ConsoleInputSizeArray(const int sizeMax)
+int ConsoleInputSizeArray(const int sizeMax) // 
 {
     int size = 0; 
     do {
@@ -41,7 +41,7 @@ int ConsoleInputArray(int sizeMax, double A[])
 *   RndInputArrayDouble
 *
 */
-int RndInputArray(int sizeMax, double A[])
+int RndInputArray(int sizeMax, double A[]
 {
     int size = ConsoleInputSizeArray(sizeMax);
     int r1=0, r2=0;
